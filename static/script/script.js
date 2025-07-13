@@ -1,0 +1,1 @@
+alert("This Page will open webcam");

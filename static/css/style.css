@@ -1,0 +1,41 @@
+/* Reset & base styles */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #e0f7fa, #e1bee7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container to center content */
+.container {
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    padding: 40px 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading styling */
+h3 {
+    color: #6a1b9a;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Image (video feed) styling */
+img {
+    width:75%;
+    border: 4px solid #6a1b9a;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
